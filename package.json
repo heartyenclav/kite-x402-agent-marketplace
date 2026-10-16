@@ -1,0 +1,25 @@
+{
+  "name": "kite-x402-agent-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack pay-per-query AI agent marketplace, x402 micropayment gateway & developer console on Kite Chain",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "npm --prefix backend run dev & npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "kiteai",
+    "x402",
+    "ai-agents",
+    "marketplace",
+    "micropayments",
+    "kite-passport",
+    "web3"
+  ],
+  "author": "heartyenclav <heartyenclav@users.noreply.github.com>",
+  "license": "Apache-2.0"
+}
